@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>TechieClassroom</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- css link -->
+    <link rel="stylesheet" href="css\style.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Open+Sans:ital@0;1&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand text-capitalize" href="#">Techie Classroom</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-l-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-capitalize" href="about.html">about us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="services.html" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="services.html">Data Structures & Algorithms in Java</a></li>
+                            <li><a class="dropdown-item" href="services.html">DevOps</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="services.html">Git & GitHub</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link text-capitalize" href="contact.html">contact us</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- our services section start -->
+    <section class="main_heading my-5 bg-light pt-5">
+        <div class="text-center">
+            <h1 class="display-4 text-capitalize"> our services </h1>
+            <hr class="w-25 mx-auto" />
+        </div>
+
+        <div class="container services">
+            <div class=" my-5">
+                <div class="card-group">
+                    <div class="card">
+                        <img class="card-img-top" src="images/1.png" alt="services images">
+                        <div class="card-body">
+                            <h5 class="card-title">Data Structures & Algorithms in Java</h5>
+                            <p class="card-text">Get interview-ready with this course that has no prerequisites and
+                                is designed to make you an expert in solving easy to hard LeetCode problems with
+                                ease.</p>
+                            <p class="card-text"><small class="text-muted">Learn more</small></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="images/2.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">DevOps</h5>
+                            <p class="card-text">Without a doubt, DevOps engineer is the most in-demand role in the current market, especially with an increased number of high paying remote opportunities.</p>
+                            <p class="card-text"><small class="text-muted">Learn more</small></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="images/3.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Git & GitHub</h5>
+                            <p class="card-text">Kick-off your Open Source journey with the complete Git & GitHub tutorial covering all the fundamentals and advance concepts with a hands-on approach.</p>
+                            <p class="card-text"><small class="text-muted">Learn more</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-12 text-center my-5">
+                <button type="button" class="btn btn-outline-info" data-toggle="tooltip" data-placement="right"
+                    title="Click it">Check More</button>
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- our services section end -->
+
+    <footer class="bg-secondary text-center text-white">
+        <p> @copyright Nikhil Sharma</p>
+
+    </footer>
+
+
+
+
+</header>
+
+<!-- Optional JavaScript; choose one of the two! -->
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+</script>
+
+</body>
+
+</html>
+
